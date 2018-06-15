@@ -90,9 +90,9 @@ libcoap/src/pdu.o: /opt/esp-idf/components/coap/libcoap/src/pdu.c \
  /opt/esp-idf/components/coap/libcoap/include/coap/uri.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/str.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/option.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/bits.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/encode.h \
  /opt/esp-idf/components/newlib/include/strings.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/mem.h
@@ -279,11 +279,11 @@ libcoap/src/pdu.o: /opt/esp-idf/components/coap/libcoap/src/pdu.c \
 
 /opt/esp-idf/components/coap/libcoap/include/coap/str.h:
 
+/opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
+
 /opt/esp-idf/components/coap/libcoap/include/coap/option.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/bits.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/encode.h:
 

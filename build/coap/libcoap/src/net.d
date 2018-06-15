@@ -85,10 +85,14 @@ libcoap/src/net.o: /opt/esp-idf/components/coap/libcoap/src/net.c \
  /opt/esp-idf/components/newlib/include/ctype.h \
  /opt/esp-idf/components/lwip/include/lwip/port/arpa/inet.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/debug.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/mem.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/uri.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/str.h \
  /opt/esp-idf/components/newlib/include/string.h \
  /opt/esp-idf/components/newlib/include/sys/string.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/mem.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/str.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/async.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/net.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/coap_io.h \
@@ -98,10 +102,6 @@ libcoap/src/net.o: /opt/esp-idf/components/coap/libcoap/src/net.c \
  /opt/esp-idf/components/coap/libcoap/include/coap/coap_time.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/option.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/bits.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/uri.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/str.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/prng.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/resource.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/utlist.h \
@@ -286,13 +286,21 @@ libcoap/src/net.o: /opt/esp-idf/components/coap/libcoap/src/net.c \
 
 /opt/esp-idf/components/coap/libcoap/include/coap/debug.h:
 
-/opt/esp-idf/components/coap/libcoap/include/coap/mem.h:
+/opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/uri.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/str.h:
 
 /opt/esp-idf/components/newlib/include/string.h:
 
 /opt/esp-idf/components/newlib/include/sys/string.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/mem.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/str.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/async.h:
 
@@ -311,14 +319,6 @@ libcoap/src/net.o: /opt/esp-idf/components/coap/libcoap/src/net.c \
 /opt/esp-idf/components/coap/libcoap/include/coap/option.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/bits.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/uri.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/str.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/prng.h:
 

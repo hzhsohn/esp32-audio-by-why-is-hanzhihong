@@ -83,17 +83,17 @@ libcoap/src/block.o: /opt/esp-idf/components/coap/libcoap/src/block.c \
  /opt/esp-idf/components/lwip/include/lwip/lwip/err.h \
  /opt/esp-idf/components/lwip/include/lwip/lwip/inet.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/debug.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/block.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/encode.h \
- /opt/esp-idf/components/newlib/include/strings.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/option.h \
- /opt/esp-idf/components/coap/libcoap/include/coap/bits.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/uri.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/hashkey.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/str.h \
  /opt/esp-idf/components/newlib/include/string.h \
- /opt/esp-idf/components/newlib/include/sys/string.h
+ /opt/esp-idf/components/newlib/include/sys/string.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/block.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/encode.h \
+ /opt/esp-idf/components/newlib/include/strings.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/option.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/bits.h
 
 /opt/esp-idf/components/coap/port/include/coap_config.h:
 
@@ -263,16 +263,6 @@ libcoap/src/block.o: /opt/esp-idf/components/coap/libcoap/src/block.c \
 
 /opt/esp-idf/components/coap/libcoap/include/coap/debug.h:
 
-/opt/esp-idf/components/coap/libcoap/include/coap/block.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/encode.h:
-
-/opt/esp-idf/components/newlib/include/strings.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/option.h:
-
-/opt/esp-idf/components/coap/libcoap/include/coap/bits.h:
-
 /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/uri.h:
@@ -284,3 +274,13 @@ libcoap/src/block.o: /opt/esp-idf/components/coap/libcoap/src/block.c \
 /opt/esp-idf/components/newlib/include/string.h:
 
 /opt/esp-idf/components/newlib/include/sys/string.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/block.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/encode.h:
+
+/opt/esp-idf/components/newlib/include/strings.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/option.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/bits.h:

@@ -89,6 +89,7 @@ port/coap_io_socket.o: /opt/esp-idf/components/coap/port/coap_io_socket.c \
  /opt/esp-idf/components/newlib/include/string.h \
  /opt/esp-idf/components/newlib/include/sys/string.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/debug.h \
+ /opt/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/mem.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/coap_io.h \
  /opt/esp-idf/components/coap/libcoap/include/coap/address.h \
@@ -274,6 +275,8 @@ port/coap_io_socket.o: /opt/esp-idf/components/coap/port/coap_io_socket.c \
 /opt/esp-idf/components/newlib/include/sys/string.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/debug.h:
+
+/opt/esp-idf/components/coap/libcoap/include/coap/pdu.h:
 
 /opt/esp-idf/components/coap/libcoap/include/coap/mem.h:
 

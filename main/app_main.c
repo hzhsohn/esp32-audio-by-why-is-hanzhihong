@@ -248,10 +248,17 @@ void DUEROS_PLAY_CALLBACK (char* url,char*text,char *payload)
 
 void app_main()
 {
+
+	printf("app_main \r\n");
+
     nvs_flash_init();
     tcpip_adapter_init();
     event_engine_init();
+
+	printf("h_gpio_init \r\n");
     h_gpio_init(btn_press);	
+
+	printf("aplay_init \r\n");
     aplay_init(AUDIO_PLAY_CALLBACK , AUDIO_SPEAK_CALLBACK);
 	xTaskCreate(webplay_task_mp3, "webplay_task_mp3", 4*1024, NULL, 5, NULL);
 	
@@ -260,11 +267,14 @@ void app_main()
 
     app_wifi_sta("hx-kong.com","89918000");
     
-    
+	vTaskDelay(3000 / portTICK_PERIOD_MS);
+
+    xTaskCreate(task_url_music, "task_url_music", 7*1024, "http://res.iot.baidu.com/api/v1/voice/0f6c000000000a/tts/2be183c35d9b68c3ac48971019a67eb3.mp3", 6, NULL);
+
 	vTaskDelay(3000 / portTICK_PERIOD_MS);
     /* Duer OS voice recognition*/
     initDuerOS(DUEROS_PLAY_CALLBACK);
-	//xTaskCreate(task_url_music, "task_url_music", 7*1024, "http://res.iot.baidu.com/api/v1/voice/0f6c000000000a/tts/2be183c35d9b68c3ac48971019a67eb3.mp3", 6, NULL);
+	
 	vTaskSuspend(NULL);
 }
 
