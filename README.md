@@ -1,1 +1,9 @@
-基于乐鑫ADF  开发的小玩意
+oh!!!  this whyengineer--lin sample
+
+----------------------------------------------
+------------Code for learning only------------
+------------Code for learning only------------
+------------Code for learning only------------
+------------Code for learning only------------
+------------Code for learning only------------
+----------------------------------------------
